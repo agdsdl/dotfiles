@@ -1,0 +1,38 @@
+# wish lldb supported colors :/
+settings set prompt [lldb]$
+
+# breakpoint shortcuts
+# break on function/method/selector: b -n name
+# break on C/C++ method: b -M method
+# break on selector: b -S selector:here:
+# break on address: b -a 0xfeedface
+command alias b breakpoint set
+command alias bd breakpoint disable
+command alias be breakpoint enable
+command alias bdel breakpoint delete
+command alias bcommand breakpoint command add
+command alias commands breakpoint command list
+
+# jump aliases
+# jump 0xfeedface
+command alias jump register write pc
+command alias jmp register write pc
+command alias j register write pc
+
+# fix p/s
+# p/s rsi
+command alias p/s register read
+
+# fscript (cbf to fix fscript anywhere)
+command alias f_init p (char)[[NSBundle bundleWithPath:@"/Library/Frameworks/FScript.framework"] load]
+command alias f_start p (void)[FScriptMenuItem insertInMainMenu]
+
+command alias return thread return
+
+# import Chisel
+command script import ~/work/Opensource/chisel/fblldb.py
+# commands for reveal and cycript
+command alias load_cycript process load /Users/donglesu/tools/Cycript_0/Cycript.lib/libcycript-sim.dylib
+command alias run_cycript p (void)CYListenServer(8888)
+command alias load_reveal process load /Applications/Reveal.app/Contents/SharedSupport/iOS-Libraries/libReveal.dylib
+command alias start_reveal p [[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStart" object:nil];
