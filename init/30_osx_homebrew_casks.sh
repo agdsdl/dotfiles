@@ -22,29 +22,30 @@ casks=(
   #1password
   #charles
   #chromium
-  dropbox
+  #dropbox
   #google-chrome
   hex-fiend
-  remote-desktop-connection
   scroll-reverser
-  virtualbox
+  #virtualbox
   # Quick Look plugins
-  betterzipql
-  qlcolorcode
-  qlmarkdown
-  qlprettypatch
-  qlstephen
-  quicklook-csv
-  quicklook-json
-  quicknfo
-  suspicious-package
-  webpquicklook
+  # betterzipql
+  # qlcolorcode
+  # qlmarkdown
+  # qlprettypatch
+  # qlstephen
+  # quicklook-csv
+  # quicklook-json
+  # quicknfo
+  # suspicious-package
+  # webpquicklook
+
   # Color pickers
   colorpicker-developer
   colorpicker-skalacolor
+  
   # dongle
   #reveal
-  sketch-toolbox
+  #sketch-toolbox
   #thunder
 )
 
