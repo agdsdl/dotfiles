@@ -1,4 +1,8 @@
 # Initialize rbenv.
+if [[! "$(type -P rbenv)" ]]; then
+  brew install rbenv
+fi
+
 #source $DOTFILES/source/56_ruby.sh
 
 # Install Ruby.
@@ -13,4 +17,6 @@ if [[ "$(type -P rbenv)" ]]; then
       [[ "$r" == "${versions[0]}" ]] && rbenv global "$r"
     done
   fi
+else
+  e_error "rbenv failed to install."
 fi
