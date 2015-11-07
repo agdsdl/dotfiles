@@ -1,7 +1,7 @@
 
 # download opensource files.
 CURRENT_PATH=`pwd`
-opensourceDir="$HOME/work/Opensource"
+opensourceDir="$HOME/jailbreak/Opensource"
 if [ ! -d $opensourceDir ];then
   mkdir -p "$opensourceDir" && cd "$opensourceDir"
 else
@@ -9,12 +9,18 @@ else
 fi
 
 openNames=(
-  chisel
-  DLIntrospection
+  usbmuxd
+  theos
+  ldid
+  cycript
+  class-dump
 )
 openRepos=(
-  https://github.com/facebook/chisel.git
-  https://github.com/garnett/DLIntrospection.git
+  http://cgit.sukimashita.com/usbmuxd.git/
+  git://github.com/DHowett/theos.git
+  git://git.saurik.com/ldid.git
+  git://git.saurik.com/cycript.git
+  https://github.com/nygard/class-dump.git
 )
 
 # downloadOpensource opensourceName opensourceRepoUrl
