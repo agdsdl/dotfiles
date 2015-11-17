@@ -25,7 +25,7 @@ casks=(
   #dropbox
   #google-chrome
   hex-fiend
-  scroll-reverser
+  # scroll-reverser
   #virtualbox
   # Quick Look plugins
   # betterzipql
@@ -42,11 +42,24 @@ casks=(
   # Color pickers
   colorpicker-developer
   colorpicker-skalacolor
-  
+
   # dongle
   #reveal
+  #charles
   #sketch-toolbox
   #thunder
+  #filezilla
+  betterzip
+  google-chrome
+  qq
+  neteasemusic
+  youdao
+  qqmusic
+  atom
+  sublime-text
+  kdiff3
+  sourcetree
+  android-studio
 )
 
 # Install Homebrew casks.
