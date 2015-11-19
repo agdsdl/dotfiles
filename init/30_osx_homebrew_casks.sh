@@ -59,6 +59,7 @@ casks=(
   sublime-text
   kdiff3
   sourcetree
+  visual-studio-code
   android-studio
 )
 
