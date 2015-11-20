@@ -11,7 +11,7 @@ Cycript_BIN=~/tools/Cycript_0
 GRADLE_BIN=~/apps/gradle-2.3/bin
 export THEOS=~/opt/theos
 export PLATFORM=/Developer/Platforms/iPhoneOS.platform
-export PATH=~/bin:$NDK:$ANDROID_SDK:$GRADLE_BIN:$MAVEN_PATH:$ARM_GCC_BIN:$Cycript_BIN:$PATH
+export PATH=~/bin:~/jailbreak/bin:$NDK:$ANDROID_SDK:$GRADLE_BIN:$MAVEN_PATH:$ARM_GCC_BIN:$Cycript_BIN:$PATH
 export REACT_EDITOR="'/Applications/Sublime Text 2.app/Contents/MacOS/Sublime Text 2'"
 
 export iOSOpenDevPath=/opt/iOSOpenDev
