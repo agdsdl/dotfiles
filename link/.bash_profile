@@ -9,13 +9,13 @@ MAVEN_PATH=~/Documents/necessities/apache-maven-3.1.0/bin
 ARM_GCC_BIN=/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/bin
 Cycript_BIN=~/tools/Cycript_0
 GRADLE_BIN=~/apps/gradle-2.3/bin
-export THEOS=~/opt/theos
+export THEOS=~/jailbreak/Opensource/theos/bin
 export PLATFORM=/Developer/Platforms/iPhoneOS.platform
-export PATH=~/bin:~/link_bin:~/jailbreak/bin:$NDK:$ANDROID_SDK:$GRADLE_BIN:$MAVEN_PATH:$ARM_GCC_BIN:$Cycript_BIN:$PATH
+export PATH=~/bin:~/link_bin:~/jailbreak/bin:$THEOS:$NDK:$ANDROID_SDK:$GRADLE_BIN:$MAVEN_PATH:$ARM_GCC_BIN:$Cycript_BIN:$PATH
 export REACT_EDITOR="'/Applications/Sublime Text 2.app/Contents/MacOS/Sublime Text 2'"
 
 export iOSOpenDevPath=/opt/iOSOpenDev
-export iOSOpenDevDevice=192.168.3.4
+export iOSOpenDevDevice=192.168.2.2
 export PATH=/opt/iOSOpenDev/bin:$PATH
 
 # MacPorts Installer addition on 2014-01-17_at_12:57:18: adding an appropriate PATH variable for use with MacPorts.
