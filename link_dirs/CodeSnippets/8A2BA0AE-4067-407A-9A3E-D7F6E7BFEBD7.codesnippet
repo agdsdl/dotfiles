@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tvdel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>Class Implementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - UITableViewDelegate
+	
+	- (void)tableView:(UITableView *)tableView
+	didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+	{
+	    &lt;#statements#&gt;
+	}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8A2BA0AE-4067-407A-9A3E-D7F6E7BFEBD7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Placeholders for required UITableViewDelegate protocol methods</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UITableViewDelegate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

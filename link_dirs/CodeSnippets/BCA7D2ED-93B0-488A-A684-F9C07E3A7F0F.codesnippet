@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>xae</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>Function or Method</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>XCTAssertEqual(&lt;#expected#&gt;, &lt;#actual#&gt;, &lt;#message#&gt;);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BCA7D2ED-93B0-488A-A684-F9C07E3A7F0F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Assert equals for XCTest</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>XCT Assert Equals</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

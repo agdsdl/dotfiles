@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>frc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>Function or Method</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let fetchRequest = NSFetchRequest(entityName: &lt;#T##String#&gt;)
+	fetchRequest.predicate = NSPredicate(format: &lt;#T##String#&gt;, argumentArray: &lt;#T##[AnyObject]?#&gt;)
+	let sortDescriptor = NSSortDescriptor(key: &lt;#T##String?#&gt;, ascending: &lt;#T##Bool#&gt;)
+	fetchRequest.sortDescriptors = [sortDescriptor]
+	
+	let fetchedResultsController = NSFetchedResultsController(fetchRequest: &lt;#T##NSFetchRequest#&gt;, managedObjectContext: &lt;#T##NSManagedObjectContext#&gt;, sectionNameKeyPath: &lt;#T##String?#&gt;, cacheName: &lt;#T##String?#&gt;)
+	fetchedResultsController.delegate = &lt;#T##NSFetchedResultsControllerDelegate#&gt;
+	
+	do {
+	    try fetchedResultsController.performFetch()
+	} catch {
+	    &lt;#code#&gt;
+	}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B2F3AB53-C028-44C8-9BDD-C5692BBCDBCF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Boilerplate for creating an NSFetchedResultsController</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>NSFetchedResultsController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

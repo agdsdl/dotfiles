@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cvds</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>Class Implementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;#Class#&gt; : UICollectionViewDataSource {
+	
+	    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -&gt; Int {
+	        &lt;#code#&gt;
+	    }
+	
+	    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
+	        &lt;#code#&gt;
+	    }
+	
+	    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -&gt; UICollectionViewCell {
+	        &lt;#code#&gt;
+	    }
+	
+	    func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -&gt; UICollectionReusableView {
+	        &lt;#code#&gt;
+	    }
+	
+	    func collectionView(collectionView: UICollectionView, canMoveItemAtIndexPath indexPath: NSIndexPath) -&gt; Bool {
+	        &lt;#code#&gt;
+	    }
+	
+	    func collectionView(collectionView: UICollectionView, moveItemAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
+	        &lt;#code#&gt;
+	    }
+	
+	}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EEA423B8-84EF-4940-BF08-6862C1570EC7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Placeholders for essential UICollectionViewDataSource delegate methods</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionViewDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
