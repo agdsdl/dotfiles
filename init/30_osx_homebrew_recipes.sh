@@ -8,6 +8,7 @@ is_osx || return 1
 recipes=(
   tree
   wget
+  xcodesnippet
 )
 
 brew_install_recipes
