@@ -1,5 +1,6 @@
 
-# install jailbreak tools.
+# install jailbreak tweak tools.
+# before run this script, please clone theos to "$HOME/jailbreak/Opensource"
 CURRENT_PATH=`pwd`
 opensourceDir="$HOME/jailbreak/Opensource"
 THEOS_BIN="$opensourceDir/theos/bin"
@@ -11,7 +12,7 @@ else
 fi
 
 if [ ! -d $THEOS_BIN ];then
-  echo theos not downlaoded.
+  echo "theos has not downlaoded."
 else
   cd $THEOS_BIN
   if [ ! -f ldid ];then
@@ -20,7 +21,7 @@ else
     sudo ./bootstrap.sh substrate
   fi
 
-  echo "input your iphone ip address"
+  echo "To copy libsubstrate.dylib from you iphone, please first input your iphone ip address"
   read iphoneIP
   if [ -z $iphoneIP ];then
     echo "no iphone ip, skip copy cydia substrate..."
@@ -32,13 +33,13 @@ else
   fi
 
   if [ ! -f dpkg-deb ];then
-    echo "https://raw.githubusercontent.com/DHowett/dm.pl/master/dm.pl"
+    echo "download dpkg-deb from https://raw.githubusercontent.com/DHowett/dm.pl/master/dm.pl"
     wget https://raw.githubusercontent.com/DHowett/dm.pl/master/dm.pl
     mv dm.pl dpkg-deb
     sudo chmod 777 dpkg-deb
   fi
 
-  echo "another 5 theos template"
+  echo "install another 5 theos template..."
   cd ..
   if [ ! -f templates/iphone/cydget.nic.tar ];then
     wget https://codeload.github.com/DHowett/theos-nic-templates/zip/master
@@ -47,7 +48,7 @@ else
     rm -rf theos-nic-templates-master
     rm master
   else
-    echo "already have it."
+    echo "you already have it."
   fi
 
   cd $CURRENT_PATH
