@@ -14,6 +14,8 @@ export PLATFORM=/Developer/Platforms/iPhoneOS.platform
 export PATH=~/bin:~/link_bin:~/jailbreak/bin:$THEOS:$NDK:$ANDROID_SDK:$GRADLE_BIN:$MAVEN_PATH:$ARM_GCC_BIN:$Cycript_BIN:$PATH
 export REACT_EDITOR="'/Applications/Sublime Text 2.app/Contents/MacOS/Sublime Text 2'"
 
+eval "$(rbenv init -)"
+
 export iOSOpenDevPath=/opt/iOSOpenDev
 export iOSOpenDevDevice=192.168.2.2
 export PATH=/opt/iOSOpenDev/bin:$PATH
