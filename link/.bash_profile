@@ -15,6 +15,7 @@ export PATH=~/bin:~/link_bin:~/jailbreak/bin:$THEOS:$NDK:$ANDROID_SDK:$GRADLE_BI
 export REACT_EDITOR="'/Applications/Sublime Text 2.app/Contents/MacOS/Sublime Text 2'"
 
 eval "$(rbenv init -)"
+. ~/work/Opensource/z/z.sh
 
 export iOSOpenDevPath=/opt/iOSOpenDev
 export iOSOpenDevDevice=192.168.2.2

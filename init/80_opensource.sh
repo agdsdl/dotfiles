@@ -12,11 +12,13 @@ openNames=(
   chisel
   DLIntrospection
   WinObjC
+  z
 )
 openRepos=(
   https://github.com/facebook/chisel.git
   https://github.com/garnett/DLIntrospection.git
   https://github.com/Microsoft/WinObjC.git
+  https://github.com/rupa/z.git
 )
 
 # downloadOpensource opensourceName opensourceRepoUrl
