@@ -48,10 +48,6 @@
   path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
 [rerere]
   enabled = 1
-[url "git@github.com:"]
-  insteadOf = "gh:"
-  pushInsteadOf = "github:"
-  pushInsteadOf = "git://github.com/"
 [url "git://github.com/"]
   insteadOf = "github:"
 [url "git@gist.github.com:"]
