@@ -24,7 +24,7 @@ casks=(
   #chromium
   #dropbox
   #google-chrome
-  hex-fiend
+  #hex-fiend
   # scroll-reverser
   #virtualbox
   # Quick Look plugins
@@ -40,8 +40,8 @@ casks=(
   # webpquicklook
 
   # Color pickers
-  colorpicker-developer
-  colorpicker-skalacolor
+  #colorpicker-developer
+  #colorpicker-skalacolor
 
   # dongle
   #reveal
@@ -54,7 +54,7 @@ casks=(
   qq
   neteasemusic
   youdao
-  qqmusic
+  #qqmusic
   atom
   sublime-text
   kdiff3
