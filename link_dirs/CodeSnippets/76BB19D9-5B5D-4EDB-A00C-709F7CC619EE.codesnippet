@@ -26,7 +26,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     &lt;#cellType#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#reuseId#&gt;];
     &lt;#modelType#&gt; *model = [&lt;#dataArray#&gt; objectAtIndex:indexPath.row];
-    [cell loadCell:model];
+    [cell loadModel:model];
     return cell;
 }
 
